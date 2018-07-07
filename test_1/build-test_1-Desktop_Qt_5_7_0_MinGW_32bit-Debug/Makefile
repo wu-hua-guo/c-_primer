@@ -182,6 +182,7 @@ Makefile: ../test_1/test_1.pro ../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/win
 		../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/win32/qt_config.prf \
 		../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/win32-g++/qmake.conf \
 		../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/exclusive_builds.prf \
 		../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/default_pre.prf \
 		../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/win32/default_pre.prf \
@@ -332,6 +333,7 @@ Makefile: ../test_1/test_1.pro ../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/win
 ../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/win32/qt_config.prf:
 ../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/win32-g++/qmake.conf:
 ../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/spec_post.prf:
+.qmake.stash:
 ../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/exclusive_builds.prf:
 ../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/default_pre.prf:
 ../../../../Qt/Qt5.7.0/5.7/mingw53_32/mkspecs/features/win32/default_pre.prf:
