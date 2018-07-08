@@ -1,0 +1,16 @@
+QLabel#customLabel {
+        qproperty-minimumSize: 100px 100px;
+        qproperty-maximumSize: 100px 100px;
+        qproperty-pixmap: url(:/Images/logo);
+        qproperty-scaledContents: true;
+}
+
+QPushButton#customButton {
+        qproperty-text: "Click Me";
+        qproperty-icon: url(:/Images/logo);
+        qproperty-iconSize: 20px 20px;
+}
+
+QGroupBox#customGroupBox {
+        qproperty-title: "GroupBox";
+}

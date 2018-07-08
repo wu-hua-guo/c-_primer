@@ -13,7 +13,7 @@ signals:
 
 public slots:
 public:
-    static QString getTime(QString format=tr("yyyy-MM-dd HH:mm:ss MMM"));
+    static QString getTime(QString format=tr("yyyy-MM-dd HH:mm:ss"));
 };
 
 #endif // MYTIME_H

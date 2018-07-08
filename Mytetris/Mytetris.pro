@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2018-07-07T11:16:30
+# Project created by QtCreator 2018-07-08T09:10:37
 #
 #-------------------------------------------------
 
@@ -8,19 +8,11 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = test_1
+TARGET = Mytetris
 TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    mytime.cpp
+        tetriswindow.cpp
 
-HEADERS  += mainwindow.h \
-    mytime.h
-
-FORMS    += mainwindow.ui
-
-RESOURCES += \
-    src.qrc \
-    qss.qrc
+HEADERS  += tetriswindow.h
